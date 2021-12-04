@@ -1,7 +1,9 @@
-export default function index() {
+import Layout from '../../components/Layout';
+
+export default function Users() {
   return (
-    <div>
+    <Layout>
       <p>Users Page</p>
-    </div>
+    </Layout>
   );
 }
