@@ -1,4 +1,4 @@
-import Layout from '../../components/Layout';
+import Layout from '../../components/templates/Layout';
 import { useRouter } from 'next/router';
 import styles from '../../styles/Users.module.css';
 

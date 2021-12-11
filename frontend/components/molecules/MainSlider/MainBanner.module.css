@@ -1,0 +1,23 @@
+.container {
+  /* height: 400px; */
+}
+
+.imageWrapper {
+  position: relative;
+}
+
+.banner {
+  width: 100%;
+  height: auto;
+}
+
+.mainInfo {
+  position: absolute;
+  width: 900px;
+  height: 150px;
+  background-color: #ffffff;
+  margin: auto;
+  bottom: 0;
+  /* top: 100%; */
+  /* bottom: -40px; */
+}

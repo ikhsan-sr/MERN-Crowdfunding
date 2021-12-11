@@ -1,14 +1,14 @@
-import Layout from '../components/Layout';
+import Layout from '../components/templates/Layout';
 import styles from '../styles/Blog.module.css';
 
-interface Post {
+type Post = {
   id: number;
   title: string;
   body: string;
-}
-interface BlogProps {
+};
+type BlogProps = {
   dataBlog: Post[];
-}
+};
 
 export default function Blog(props: BlogProps) {
   const { dataBlog } = props;

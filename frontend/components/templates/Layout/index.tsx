@@ -1,6 +1,6 @@
 import { ReactNode } from 'react';
-import Footer from '../Footer';
-import Header from '../Header';
+import Footer from '../../organisms/Footer';
+import Header from '../../organisms/Header';
 import Head from 'next/head';
 import styles from './Layout.module.css';
 
