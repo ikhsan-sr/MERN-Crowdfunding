@@ -3,7 +3,7 @@
     "browser": true,
     "es2021": true
   },
-  "extends": ["airbnb-base", "plugin:prettier/recommended"],
+  "extends": ["airbnb-base", "plugin:react/recommended"],
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
@@ -18,6 +18,16 @@
       {
         "extensions": [".js", ".jsx"]
       }
-    ]
+    ],
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": "off",
+    "linebreak-style": ["error", "windows"]
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    }
   }
 }
