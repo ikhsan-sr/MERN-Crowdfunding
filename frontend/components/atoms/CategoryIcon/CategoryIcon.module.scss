@@ -1,0 +1,19 @@
+.wrapper {
+  background-color: #f3f4f680;
+  width: 65px;
+  height: 65px;
+  border-radius: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+
+  &:hover {
+    background-color: #a7e5f8;
+  }
+}
+
+.icon {
+  width: 30px;
+  height: auto;
+  color: red;
+}
