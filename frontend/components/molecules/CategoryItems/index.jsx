@@ -5,8 +5,6 @@ import CategoryIcon from '../../atoms/CategoryIcon';
 export default function CategoryItems(props) {
   const categories = props.data;
 
-  console.log(categories);
-
   return (
     <Grid container spacing={2}>
       {categories.map((item, idx) => (
