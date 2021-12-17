@@ -3,6 +3,7 @@ import Layout from '../components/templates/Layout';
 import Homepage from '../components/templates/Homepage';
 
 export default function Home(props) {
+  console.log(props.dataHome);
   return (
     <Layout pageTitle="Home">
       <Container>
@@ -13,7 +14,7 @@ export default function Home(props) {
 }
 
 export async function getServerSideProps() {
-  const res = await fetch(`${process.env.serverAPI}homepage`);
+  const res = await fetch(`${process.env.serverAPI}/homepage`);
   const dataHome = await res.json();
 
   return {
