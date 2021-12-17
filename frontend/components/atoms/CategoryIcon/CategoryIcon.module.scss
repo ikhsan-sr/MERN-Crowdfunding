@@ -6,14 +6,15 @@
   margin: auto;
   display: flex;
   justify-content: center;
+  align-items: center;
 
   &:hover {
-    background-color: #a7e5f8;
+    background-color: #daf6ff;
   }
 }
 
 .icon {
   width: 30px;
-  height: auto;
+  height: 30px;
   color: red;
 }

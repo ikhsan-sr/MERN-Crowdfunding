@@ -53,20 +53,20 @@ const Campaign = mongoose.Schema({
   },
   target: {
     target_status: {
-      type: Mixed,
+      type: String,
     },
     target_type: {
       type: String
     },
     target_at: {
-      type: Number,
+      type: Date,
       required: true
     },
     target_amount: {
-      type: Date
+      type: String
     },
     over_at: {
-      type: Mixed
+      type: Number
     },
   },
   collect: {
@@ -116,13 +116,13 @@ const Campaign = mongoose.Schema({
       type: String
     },
     twitter: {
-      type: Mixed
+      type: String
     },
     instagram: {
       type: String
     },
     facebook: {
-      type: Mixed
+      type: String
     },
     description: {
       type: String
@@ -141,7 +141,7 @@ const Campaign = mongoose.Schema({
     type: Date
   },
   tags: {
-    type: Mixed
+    type: String
   },
 });
 
